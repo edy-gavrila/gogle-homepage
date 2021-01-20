@@ -8,12 +8,15 @@ body {
 }
 
 .search-container {
-    margin-top: 200px;
+    margin-top: 70px 0;
+    padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 70%;
+  height: 100%;
+
 }
 
 .searchbox-container{
@@ -76,7 +79,7 @@ body {
     left: 0;
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 70px;
     align-items: center;
     justify-content: space-between;
    
@@ -84,14 +87,23 @@ body {
 
 .footer{
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .nav.left{
     margin-left: 20px;
 }
+.nav.right{
+    margin-left: 20px;
+}
 
-.nav.left a, .nav.right a{
+.nav.left a, .nav.right a , .nav.bottom a{
     padding: 10px;
     color: dimgray;
     text-decoration: none;
@@ -99,4 +111,18 @@ body {
 
 .nav.left a:hover{
     text-decoration: underline ;
+}
+
+.nav.bottom a:hover{
+    text-decoration: underline dimgray;
+}
+
+.sign-in{
+    padding: 7px 15px;
+    background-color: #4485f5;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+
 }
