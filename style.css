@@ -4,7 +4,6 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  overflow: hidden;
 }
 
 .search-container {
@@ -14,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 600px;
   height: 100%;
 
 }
